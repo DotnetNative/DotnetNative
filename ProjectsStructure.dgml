@@ -103,19 +103,19 @@
   <Styles>
     <Style TargetType="Node" GroupLabel="AssemblyCategory" ValueLabel="Has assembly">
       <Condition Expression="HasCategory('AssemblyCategory')" />
-      <Setter Property="Background" Value="#00000000" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
       <Setter Property="Stroke" Value="#78FFFFFF" />
       <Setter Property="Icon" Value="CodeSchema_Assembly" />
     </Style>
 	 <Style TargetType="Node" GroupLabel="GroupCategory" ValueLabel="Has category">
       <Condition Expression="HasCategory('GroupCategory')" />
-      <Setter Property="Background" Value="#00000000" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
       <Setter Property="Stroke" Value="#78FFFFFF" />
     </Style>
     <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
       <Condition Expression="HasCategory('Comment')" />
-      <Setter Property="Background" Value="#00000000" />
-      <Setter Property="Stroke" Value="#00000000" />
+      <Setter Property="Background" Value="#FF1E1E1E" />
+      <Setter Property="Stroke" Value="#FF1E1E1E" />
     </Style>
   </Styles>
 </DirectedGraph>
