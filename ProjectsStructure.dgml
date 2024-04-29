@@ -1,86 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph Layout="Sugiyama" ZoomLevel="0.90629997253418" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph GraphDirection="TopToBottom" Layout="ForceDirected" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Category="AssemblyCategory" Bounds="-278.673830007504,20.7939152753645,459.93,85.9602" Group="Expanded" Label="Memory.Manipulation (nuget)" UseManualLocation="True" />
-    <Node Id="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Category="AssemblyCategory" Bounds="-281.506532207367,292.714615275364,443.153333333333,101.9202" Group="Expanded" Label="JNI (nuget Yotic.JNI)" />
-    <Node Id="2cb472d0-ef03-425b-9fe7-490f565b50821" Category="Comment" Bounds="-146.571069946289,897.680098567708,99.48,25.96" Label="New Comment" UseManualLocation="True" />
-    <Node Id="359deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="304.573026556729,596.056242346407,303.776666666667,25.96" Label="«High-level wrapper for native OpenGL 1.1 functions»" />
-    <Node Id="476bcd64-35c4-4878-9092-b32d5e9d57301" Category="Comment" Bounds="-229.453830007504,176.754315275364,390.71,25.96" Label="«Memory utils for convenient work with memory, arrays and pointers»" />
-    <Node Id="4f2bcfd6-6cdc-4042-be6d-2ce4e405d45b1" Category="Comment" Bounds="-261.506532207367,332.714715275364,403.153333333333,41.92" Label="«Library for convenient use of JNI both with low-level interface and with &#xD;&#xA; high-level wrapper. Adds a lot of functionality over the native interface»" />
-    <Node Id="52d6d535-1b5a-4b04-a53c-e21df2e7c81c1" Category="Comment" Bounds="-258.673830007504,60.7940152753645,419.93,25.96" Label="«Library for memory manipulating, get regions, set rights, use pattern scan»" />
-    <Node Id="5e9c22f9-366a-4486-a58f-d36ee48b2ab41" Category="Comment" Bounds="286.224635087145,141.734337951732,290.343333333333,57.88" Label="• Application(exe) that collects all data into a folder&#xD;&#xA;  for later use by NuGetPackageExplorer to build &#xD;&#xA;  a .nuget file" />
-    <Node Id="62637b48-eaee-490b-a143-1d6b21172f7f1" Category="AssemblyCategory" Bounds="-249.453830007504,136.754215275364,430.71,85.9602" Group="Expanded" Label="Memory.Extensions (nuget Yotic.Memory.Extensions)" UseManualLocation="True" />
-    <Node Id="80c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-379.697732377997,887.264689941406,96.5633333333333,25.96" Label="New Node" UseManualLocation="True" />
-    <Node Id="81c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-385.370682159005,1055.14490836374,116.563516666667,44.0003356816001" Group="Expanded" Label="New Node" UseManualLocation="True" />
-    <Node Id="82c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-379.697732377997,943.224803466797,96.5633333333333,25.96" Label="New Node" UseManualLocation="True" />
-    <Node Id="839247b7-bb4c-4fc1-895f-6328e8efa7751" Category="Comment" Bounds="274.148482234768,310.254392272353,372.99,41.92" Label="• Library that is used to store data during the compilation process. &#xD;&#xA;  It has asbtractions for describing high-level Tasks" />
-    <Node Id="83c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-374.318959147135,999.184898094213,96.5633333333333,25.9600000000003" Label="New Node" UseManualLocation="True" />
-    <Node Id="8c0526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="-238.807165492338,1015.59897949219,76.5633333333335,25.96" Label="New Node" UseManualLocation="True" />
-    <Node Id="8ca526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="-247.510668481707,959.638865966797,76.5633333333335,25.96" Label="New Node" UseManualLocation="True" />
-    <Node Id="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="-301.506532207367,252.714515275364,483.153333333333,277.880720735378" Group="Expanded" Label="JNI project" UseManualLocation="True" />
-    <Node Id="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-172.390306776604,732.515730509741,406.963333333333,85.9602" Group="Expanded" Label="Cetours (nuget)" UseManualLocation="True" />
-    <Node Id="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-279.667695944346,424.634922892553,279.383333333333,85.9602000000001" Group="Expanded" Label="JNI.Core (should be nuget Yotic.JNI.Core)" UseManualLocation="True" />
-    <Node Id="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="-178.85073896592,600.595422892553,407.423333333333,101.9202" Group="Expanded" Label="Hook (nuget Yotic.Hook)" />
-    <Node Id="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="284.573026556729,556.056142346407,343.776666666667,85.9602" Group="Expanded" Label="OpenGL (nuget Yotic.OpenGL)" UseManualLocation="True" />
-    <Node Id="9ba306a6-40f1-45b2-ae6d-d770806bb2561" Category="Comment" Bounds="646.567968420478,145.94276202333,243.913333333333,41.92" Label="• Application(exe) that runs by powershell &#xD;&#xA;  when types commands via terminal" UseManualLocation="True" />
-    <Node Id="BuildPackage" Category="AssemblyCategory" Bounds="266.224635087145,101.734237951732,330.343333333333,117.8802" Group="Expanded" Label="BuildPackage" />
-    <Node Id="CSharp" Category="AssemblyCategory" Bounds="107.177038167318,-111.126384724636,231.803333333333,101.9202" Group="Expanded" Label="DotnetNativeBase (nuget)" UseManualLocation="True" />
-    <Node Id="Dnlib(4.4.0)" Category="AssemblyCategory" Bounds="389.894462890625,-166.146372340428,101.86,25.96" Label="dnlib (4.4.0)" />
-    <Node Id="ExternalLibraries" Category="GroupCategory" Bounds="369.894462890625,-206.146497309911,332.993492838541,197.880430865478" Group="Expanded" Label="External libraries" UseManualLocation="True" />
-    <Node Id="Internal" Category="GroupCategory" Bounds="246.224635087145,61.7341379517319,684.256666666666,177.8804" Group="Expanded" Label="Internal projects" />
-    <Node Id="Korn" Category="AssemblyCategory" Bounds="700.054594702216,273.708515905166,367.88,101.9202" Group="Expanded" Label="Korn (nuget)" UseManualLocation="True" />
-    <Node Id="Korn." Category="AssemblyCategory" Bounds="254.148482234768,270.254292272353,412.99,101.9202" Group="Expanded" Label="Korn.Core (should be nuget Korn.Core)" UseManualLocation="True" />
-    <Node Id="Korn.Analyze" Category="AssemblyCategory" Bounds="257.709136124742,402.174671911025,281.276666666667,101.9202" Group="Expanded" Label="Korn.Analyzer" UseManualLocation="True" />
-    <Node Id="Korn.Commands" Category="AssemblyCategory" Bounds="626.567968420478,105.94266202333,283.913333333333,101.9202" Group="Expanded" UseManualLocation="True" />
-    <Node Id="Korn.Tasks" Category="AssemblyCategory" Bounds="581.654113745185,416.831338170791,430.32,85.9602" Group="Expanded" UseManualLocation="True" />
-    <Node Id="KornSystem" Category="GroupCategory" Bounds="226.224635087145,21.7340379517319,861.709959615071,502.360933959293" Group="Expanded" Label="Korn project" UseManualLocation="True" />
-    <Node Id="Microsoft.Build(17.8.3)" Category="AssemblyCategory" Bounds="521.754622395833,-166.146397309911,161.133333333333,25.96" Label="Microsoft.Build (17.8.3)" />
-    <Node Id="Microsoft.Build.Utilities.Core(17.8.3)" Category="AssemblyCategory" Bounds="389.894532267252,-54.2261664444322,230.616666666667,25.96" Label="Microsoft.Build.Utilities.Core (17.8.3)" />
-    <Node Id="Newtonsoft.Json(13.0.3)" Category="AssemblyCategory" Bounds="389.894514363607,-110.186272340428,169.163333333333,25.96" Label="Newtonsoft.Json (13.0.3)" />
-    <Node Id="a59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="-158.85073896592,640.595522892553,367.423333333333,41.9200000000001" Label="«High-level detours library for internally hooking native functions.&#xD;&#xA;                 Implemented of Cetours»" />
-    <Node Id="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="-198.85073896592,560.595322892553,453.423765522649,277.880707617188" Group="Expanded" Label="Hooking project" UseManualLocation="True" />
-    <Node Id="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Category="GroupCategory" Bounds="-253.134399044663,899.224772949219,76.5633333333335,25.96" Label="New Node" UseManualLocation="True" />
-    <Node Id="b59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="-259.667695944346,464.635022892553,239.383333333333,25.96" Label="«Library for use JNI at low level interface»" />
-    <Node Id="c59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="-152.390306776604,772.515830509741,366.963333333333,25.96" Label="«Low-level detours library for internally hooking native functions»" />
-    <Node Id="d59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="-140.947344055176,953.640198567708,99.48,25.96" Label="New Comment" UseManualLocation="True" />
-    <Node Id="dfb5fecb-a5a2-48a2-a842-3cb5a8cfb76c1" Category="Comment" Bounds="127.177038167318,-71.1262847246356,191.803333333333,41.9200000000001" Label="• Library for storing structures&#xD;&#xA;  that are used in all sub projects" />
-    <Node Id="e59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="-132.243832159005,1009.60029856771,99.48,25.9600000000003" Label="New Comment" UseManualLocation="True" />
-    <Node Id="fd4e503a-ff50-43a9-a681-608d7040678b1" Category="Comment" Bounds="277.709136124742,442.174771911025,241.276666666667,41.9200000000001" Label="• Application(dll) that is the basic analyzer&#xD;&#xA;  needed to work the Korn library" />
-    <Node Id="ffd8475e-10bc-46d0-a912-c6eb580bc08e1" Category="Comment" Bounds="601.654113745185,456.831438170791,390.32,25.96" Label="• Application(dll) for NuGet package that is a handler of MsBuild Tasks" />
-    <Node Id="•ALib" Category="Comment" Bounds="720.054594702216,313.708615905166,327.88,41.92" Label="• Library that provide nuget package and functional code. &#xD;&#xA;  Needed for end-build applications in native" UseManualLocation="True" />
+    <Node Id="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Category="AssemblyCategory" Bounds="233.819837868022,377.744239232706,418.273333333333,85.9602" Group="Expanded" Label="Memory.Manipulation (nuget)" UseManualLocation="True" />
+    <Node Id="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Category="AssemblyCategory" Bounds="762.528191731771,1021.92870306167,443.153333333334,101.9202" Group="Expanded" Label="JNI (nuget Yotic.JNI)" />
+    <Node Id="2cb472d0-ef03-425b-9fe7-490f565b50821" Category="Comment" Bounds="1846.30504002762,129.9603356816,99.48,25.96" Label="New Comment" />
+    <Node Id="359deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="364.581366301921,1154.85355712891,303.776666666667,25.96" Label="«High-level wrapper for native OpenGL 1.1 functions»" />
+    <Node Id="476bcd64-35c4-4878-9092-b32d5e9d57301" Category="Comment" Bounds="255.071521014181,538.780166869425,390.71,25.96" Label="«Memory utils for convenient work with memory, arrays and pointers»" />
+    <Node Id="4f2bcfd6-6cdc-4042-be6d-2ce4e405d45b1" Category="Comment" Bounds="782.528191731771,1061.92880306167,403.153333333334,41.9200000000001" Label="«Library for convenient use of JNI both with low-level interface and with &#xD;&#xA; high-level wrapper. Adds a lot of functionality over the native interface»" />
+    <Node Id="52d6d535-1b5a-4b04-a53c-e21df2e7c81c1" Category="Comment" Bounds="253.819837868022,417.744339232706,378.273333333333,25.96" Label="«Library for memory manipulating, get and alloc regions, set rights»" />
+    <Node Id="5e9c22f9-366a-4486-a58f-d36ee48b2ab41" Category="Comment" Bounds="778.35817952474,570.207603061673,290.343333333333,57.88" Label="• Application(exe) that collects all data into a folder&#xD;&#xA;  for later use by NuGetPackageExplorer to build &#xD;&#xA;  a .nuget file" />
+    <Node Id="62637b48-eaee-490b-a143-1d6b21172f7f1" Category="AssemblyCategory" Bounds="235.071521014181,498.780066869425,430.71,85.9602" Group="Expanded" Label="Memory.Extensions (nuget Yotic.Memory.Extensions)" UseManualLocation="True" />
+    <Node Id="80c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="229.890224424012,261.783912084268,416.466666666667,85.9602" Group="Expanded" Label="SigScan (nuget Yotic.SigScan)" />
+    <Node Id="81c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1846.30504002762,0,116.563516666667,44.0003356816001" Group="Expanded" Label="New Node" />
+    <Node Id="82c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="2059.43170669428,74.0003356816001,96.5633333333335,25.96" Label="New Node" />
+    <Node Id="839247b7-bb4c-4fc1-895f-6328e8efa7751" Category="Comment" Bounds="1166.56933105469,651.301076792142,372.99,41.9200000000001" Label="• Library that is used to store data during the compilation process. &#xD;&#xA;  It has asbtractions for describing high-level Tasks" />
+    <Node Id="83c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="1992.86855669428,0,96.5633333333335,25.9600000000005" Label="New Node" />
+    <Node Id="8c0526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="1846.30504002762,74.0003356816001,76.5633333333335,25.96" Label="New Node" />
+    <Node Id="8ca526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="1952.86837336095,74.0003356816001,76.5633333333335,25.96" Label="New Node" />
+    <Node Id="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Category="GroupCategory" Bounds="742.528191731771,981.928603061674,483.153333333334,277.8808296875" Group="Expanded" Label="JNI project" UseManualLocation="True" />
+    <Node Id="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="240.045471365862,828.920703511749,426.963333333333,104.0122845376" Group="Expanded" Label="Cetours (nuget)" UseManualLocation="True" />
+    <Node Id="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="776.183821614584,1153.84913274917,279.383333333333,85.9602" Group="Expanded" Label="JNI.Core (should be nuget Yotic.JNI.Core)" UseManualLocation="True" />
+    <Node Id="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="252.073489219214,962.933088476562,407.423333333333,101.9202" Group="Expanded" Label="Hook (nuget Yotic.Hook)" />
+    <Node Id="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Category="AssemblyCategory" Bounds="344.581366301921,1114.85345712891,343.776666666667,85.9602" Group="Expanded" Label="OpenGL (nuget Yotic.OpenGL)" />
+    <Node Id="9ba306a6-40f1-45b2-ae6d-d770806bb2561" Category="Comment" Bounds="778.358274739583,718.087903061673,243.913333333333,41.92" Label="• Application(exe) that runs by powershell &#xD;&#xA;  when types commands via terminal" />
+    <Node Id="BuildPackage" Category="AssemblyCategory" Bounds="758.35817952474,530.207503061673,330.343333333333,117.8802" Group="Expanded" Label="BuildPackage" />
+    <Node Id="CSharp" Category="AssemblyCategory" Bounds="413.334178230285,642.783394329156,231.803333333333,101.9202" Group="Expanded" Label="DotnetNativeBase (nuget)" UseManualLocation="True" />
+    <Node Id="Dnlib(4.4.0)" Category="AssemblyCategory" Bounds="1293.49974171342,1039.04504704566,101.86,25.96" Label="dnlib (4.4.0)" />
+    <Node Id="ExternalLibraries" Category="GroupCategory" Bounds="1273.49964324337,999.044947045656,270.616666666667,253.840510058594" Group="Expanded" Label="External libraries" UseManualLocation="True" />
+    <Node Id="Internal" Category="GroupCategory" Bounds="738.358179524739,490.207403061673,370.343333333333,309.8007" Group="Expanded" Label="Internal projects" />
+    <Node Id="Korn" Category="AssemblyCategory" Bounds="755.111483154297,830.008203061673,367.880000000001,101.9202" Group="Expanded" Label="Korn (nuget)" UseManualLocation="True" />
+    <Node Id="Korn." Category="AssemblyCategory" Bounds="1146.56933105469,611.300976792142,412.99,101.9202" Group="Expanded" Label="Korn.Core (should be nuget Korn.Core)" UseManualLocation="True" />
+    <Node Id="Korn.Analyze" Category="AssemblyCategory" Bounds="1152.99154947917,743.221276792142,281.276666666667,101.9202" Group="Expanded" Label="Korn.Analyzer" UseManualLocation="True" />
+    <Node Id="Korn.Commands" Category="AssemblyCategory" Bounds="758.358274739583,678.087803061673,283.913333333334,101.9202" Group="Expanded" />
+    <Node Id="Korn.Tasks" Category="AssemblyCategory" Bounds="1138.70145019531,495.340681089017,430.32,85.9602" Group="Expanded" UseManualLocation="True" />
+    <Node Id="KornSystem" Category="GroupCategory" Bounds="718.35817952474,450.207303061673,870.663270670573,501.7212" Group="Expanded" Label="Korn project" />
+    <Node Id="Microsoft.Build(17.8.3)" Category="AssemblyCategory" Bounds="1293.49967172644,1095.00516057105,161.133333333333,25.96" Label="Microsoft.Build (17.8.3)" />
+    <Node Id="Microsoft.Build.Utilities.Core(17.8.3)" Category="AssemblyCategory" Bounds="1293.49964324337,1150.96524357886,230.616666666667,25.96" Label="Microsoft.Build.Utilities.Core (17.8.3)" />
+    <Node Id="Newtonsoft.Json(13.0.3)" Category="AssemblyCategory" Bounds="1293.49980844519,1206.92535710425,169.163333333333,25.96" Label="Newtonsoft.Json (13.0.3)" />
+    <Node Id="a59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="272.073489219214,1002.93318847656,367.423333333333,41.9200000000001" Label="«High-level detours library for internally hooking native functions.&#xD;&#xA;                 Implemented of Cetours»" />
+    <Node Id="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Category="GroupCategory" Bounds="220.045471365862,788.920603511749,466.963333333333,295.932784964813" Group="Expanded" Label="Hooking project" />
+    <Node Id="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Category="GroupCategory" Bounds="209.890224424012,221.783812084268,475.89129659017,382.956550970459" Group="Expanded" Label="Memory related projects" UseManualLocation="True" />
+    <Node Id="b59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="796.183821614584,1193.84923274917,239.383333333333,25.96" Label="«Library for use JNI at low level interface»" />
+    <Node Id="c59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="260.045471365862,868.920803511749,386.963333333333,44.0120845376" Group="Expanded" Label="«Low-level detours library for internally hooking native functions»" />
+    <Node Id="d59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="1975.78504002762,129.9603356816,99.48,25.96" Label="New Comment" />
+    <Node Id="dfb5fecb-a5a2-48a2-a842-3cb5a8cfb76c1" Category="Comment" Bounds="433.334178230285,682.783494329157,191.803333333333,41.9200000000002" Label="• Library for storing structures&#xD;&#xA;  that are used in all sub projects" />
+    <Node Id="e59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Comment" Bounds="249.890224424012,301.784012084268,376.466666666667,25.96" Label="«Library providing classea and methods for internal signatute scan»" />
+    <Node Id="fd4e503a-ff50-43a9-a681-608d7040678b1" Category="Comment" Bounds="1172.99154947917,783.221376792142,241.276666666667,41.9200000000001" Label="• Application(dll) that is the basic analyzer&#xD;&#xA;  needed to work the Korn library" />
+    <Node Id="ffd8475e-10bc-46d0-a912-c6eb580bc08e1" Category="Comment" Bounds="1158.70145019531,535.340781089017,390.32,25.96" Label="• Application(dll) for NuGet package that is a handler of MsBuild Tasks" />
+    <Node Id="•ALib" Category="Comment" Bounds="775.111483154297,870.008303061673,327.88,41.9200000000001" Label="• Library that provide nuget package and functional code. &#xD;&#xA;  Needed for end-build applications in native" />
   </Nodes>
   <Links>
     <Link Source="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Target="52d6d535-1b5a-4b04-a53c-e21df2e7c81c1" Category="Contains" />
-    <Link Source="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Target="62637b48-eaee-490b-a143-1d6b21172f7f1" Bounds="-43.2937072370386,106.754115275364,2.65472600040454,21.0706929106578" />
+    <Link Source="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Target="62637b48-eaee-490b-a143-1d6b21172f7f1" Bounds="445.60912451969,463.704439232706,1.61037478249625,26.0927194926317" />
+    <Link Source="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Target="80c526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="440.289637613346,356.736305656586,0.875560007220258,21.0079335761197" />
     <Link Source="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Target="4f2bcfd6-6cdc-4042-be6d-2ce4e405d45b1" Category="Contains" />
-    <Link Source="62637b48-eaee-490b-a143-1d6b21172f7f1" Target="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Bounds="-50.499619490011,222.714421594238,9.62869014307856,61.1098739001089" />
+    <Link Source="62637b48-eaee-490b-a143-1d6b21172f7f1" Target="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Bounds="499.413944127725,347.46092023425,53.2228539753359,924.669290845723" />
     <Link Source="62637b48-eaee-490b-a143-1d6b21172f7f1" Target="476bcd64-35c4-4878-9092-b32d5e9d57301" Category="Contains" />
-    <Link Source="62637b48-eaee-490b-a143-1d6b21172f7f1" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="-121.062152276583,222.714421594238,71.1560360046088,193.473675249089" />
+    <Link Source="62637b48-eaee-490b-a143-1d6b21172f7f1" Target="80c526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="584.4521484375,350.189483642578,77.7752685546875,148.590576171875" />
+    <Link Source="62637b48-eaee-490b-a143-1d6b21172f7f1" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="488.267860160889,347.46092023425,8.33321662632113,1056.57512881535" />
+    <Link Source="80c526e4-bfad-4be2-bb42-b25296cdf7d91" Target="e59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
     <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Category="Contains" />
     <Link Source="8cb526e4-bfad-4be2-bb42-b25296cdf7d91" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
-    <Link Source="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="27.8745285862158,711.504272743484,1.05623800140695,21.0114577662572" />
+    <Link Source="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="454.410299856385,932.932988049349,0.356643120248123,21.001397875" />
     <Link Source="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Target="c59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
-    <Link Source="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Target="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Bounds="-112.217568868996,402.195131262632,14.4926155950833,22.4397916299201" />
+    <Link Source="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Target="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Bounds="939.536090055568,1131.73317663611,12.1748630284565,22.1159561130585" />
     <Link Source="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Target="b59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
     <Link Source="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Target="a59deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
     <Link Source="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Target="359deae4-1483-4f98-a434-8c90b30a7f2b1" Category="Contains" />
     <Link Source="BuildPackage" Target="5e9c22f9-366a-4486-a58f-d36ee48b2ab41" Category="Contains" />
-    <Link Source="CSharp" Target="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Index="1" Bounds="53.7305791910034,-9.2598482749916,57.715873097089,26.3195390126596" />
-    <Link Source="CSharp" Target="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Bounds="-19.0338995677796,-6.34285256547474,205.985103757634,290.554811504825" />
-    <Link Source="CSharp" Target="62637b48-eaee-490b-a143-1d6b21172f7f1" Index="1" Bounds="128.781860351563,-9.20618438720703,85.17626953125,143.544105529785" />
-    <Link Source="CSharp" Target="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="43.0510861633902,-6.34285256547474,168.264475286768,728.952144936806" />
-    <Link Source="CSharp" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="-105.056161652979,-6.34285256547475,292.810686271156,422.420516237828" />
-    <Link Source="CSharp" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="41.534745921834,-6.34285256547474,167.269052748298,597.134771697126" />
-    <Link Source="CSharp" Target="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="217.177536010742,-9.20618438720703,71.1798858642578,562.919441223145" />
-    <Link Source="CSharp" Target="Korn" Bounds="308.821572702074,-6.34285256547474,466.725173192376,277.391744989273" />
-    <Link Source="CSharp" Target="Korn." Bounds="252.674217809407,-6.34285256547474,157.242075944804,270.753005947729" />
-    <Link Source="CSharp" Target="Korn.Analyze" Bounds="239.021926351339,-6.34285256547474,125.72671328664,401.866656611452" />
-    <Link Source="CSharp" Target="Korn.Tasks" Bounds="277.937901603595,-6.34285256547475,451.04526715343,418.98745616859" />
+    <Link Source="CSharp" Target="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Index="1" Bounds="436.492063198417,472.007416542974,71.429106897202,170.775977786182" />
+    <Link Source="CSharp" Target="151cbc1c-6e30-4b5c-81d8-60377ad3240c1" Bounds="590.373804093726,744.703594329157,325.679759894604,271.462661663078" />
+    <Link Source="CSharp" Target="62637b48-eaee-490b-a143-1d6b21172f7f1" Index="1" Bounds="457.86523407677,592.105709948865,35.5861485098956,50.6776843802918" />
+    <Link Source="CSharp" Target="80c526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="425.994565489015,356.350209673615,87.6476497714495,286.433184655541" />
+    <Link Source="CSharp" Target="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="477.936279807977,744.703594329157,30.688099150544,75.8737202969028" />
+    <Link Source="CSharp" Target="8cd526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="568.400530727061,744.703594329157,308.958908470486,402.009528171494" />
+    <Link Source="CSharp" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="469.489279499808,744.703594329157,48.0549895282815,209.457399013434" />
+    <Link Source="CSharp" Target="8cf526e4-bfad-4be2-bb42-b25296cdf7d91" Bounds="629.850524902344,744.70361328125,67.29248046875,367.192993164063" />
+    <Link Source="CSharp" Target="Korn" Bounds="640.710182571529,744.670690856978,178.608768119191,81.5976486189314" />
+    <Link Source="CSharp" Target="Korn." Bounds="645.137511563618,670.495918164743,492.438383961533,18.818420430489" />
+    <Link Source="CSharp" Target="Korn.Analyze" Bounds="645.137511563618,708.972443531422,498.930737595435,65.5572182593572" />
+    <Link Source="CSharp" Target="Korn.Tasks" Bounds="645.137511563618,580.419323126606,485.361889506431,91.4794074859665" />
     <Link Source="CSharp" Target="KornSystem" />
     <Link Source="CSharp" Target="dfb5fecb-a5a2-48a2-a842-3cb5a8cfb76c1" Category="Contains" />
-    <Link Source="Dnlib(4.4.0)" Target="Korn." Bounds="660.007787025778,-1.82639266967772,123.34447258343,446.457342912196" />
-    <Link Source="Dnlib(4.4.0)" Target="Korn.Analyze" Bounds="657.989880611654,17.8159260559082,19.3362296949089,532.727229543751" />
-    <Link Source="Dnlib(4.4.0)" Target="Korn.Tasks" Bounds="685.769394102814,17.1761513366535,337.403100946569,549.348753051275" />
+    <Link Source="Dnlib(4.4.0)" Target="Korn." Bounds="1504.56262398078,718.457386161191,148.960444487062,53.0766214071675" />
+    <Link Source="Dnlib(4.4.0)" Target="Korn.Analyze" Bounds="1442.18583390975,785.810446796526,196.835826246496,5.010518096498" />
+    <Link Source="Dnlib(4.4.0)" Target="Korn.Tasks" Bounds="1422.36760380892,596.418084397292,249.118829623307,175.115923171067" />
     <Link Source="ExternalLibraries" Target="Dnlib(4.4.0)" Category="Contains" />
     <Link Source="ExternalLibraries" Target="Microsoft.Build(17.8.3)" Category="Contains" />
     <Link Source="ExternalLibraries" Target="Microsoft.Build.Utilities.Core(17.8.3)" Category="Contains" />
@@ -89,8 +93,8 @@
     <Link Source="Internal" Target="Korn.Commands" Category="Contains" />
     <Link Source="Korn" Target="•ALib" Category="Contains" />
     <Link Source="Korn." Target="839247b7-bb4c-4fc1-895f-6328e8efa7751" Category="Contains" />
-    <Link Source="Korn." Target="Korn.Analyze" Bounds="426.255139263161,372.174492272353,10.3237439354554,21.8619484386527" />
-    <Link Source="Korn." Target="Korn.Tasks" Bounds="584.248490464075,372.174492272353,99.9957192139806,41.2264189268358" />
+    <Link Source="Korn." Target="Korn.Analyze" Bounds="1320.28600825906,713.221176792142,9.81911616960201,21.7944439485735" />
+    <Link Source="Korn." Target="Korn.Tasks" Bounds="1353.3920797573,590.300694957267,0.135062826130479,21.0002818348751" />
     <Link Source="Korn.Analyze" Target="fd4e503a-ff50-43a9-a681-608d7040678b1" Category="Contains" />
     <Link Source="Korn.Commands" Target="9ba306a6-40f1-45b2-ae6d-d770806bb2561" Category="Contains" />
     <Link Source="Korn.Tasks" Target="ffd8475e-10bc-46d0-a912-c6eb580bc08e1" Category="Contains" />
@@ -99,14 +103,17 @@
     <Link Source="KornSystem" Target="Korn." Category="Contains" />
     <Link Source="KornSystem" Target="Korn.Analyze" Category="Contains" />
     <Link Source="KornSystem" Target="Korn.Tasks" Category="Contains" />
-    <Link Source="Microsoft.Build(17.8.3)" Target="Korn." Bounds="801.917404088468,-1.82639362335203,15.5486774147092,446.137822049568" />
-    <Link Source="Microsoft.Build(17.8.3)" Target="Korn.Tasks" Bounds="843.846354497938,17.1761503829792,192.381364611628,548.524970173267" />
-    <Link Source="Microsoft.Build.Utilities.Core(17.8.3)" Target="Korn." Bounds="723.319512665693,110.093838195801,64.9021879181097,334.377019177239" />
-    <Link Source="Microsoft.Build.Utilities.Core(17.8.3)" Target="Korn.Analyze" Bounds="666.278013690207,129.736130218506,73.6272110821891,420.935697879579" />
-    <Link Source="Microsoft.Build.Utilities.Core(17.8.3)" Target="Korn.Tasks" Bounds="750.260739839475,129.096355499251,272.489429651358,437.458356368273" />
-    <Link Source="Newtonsoft.Json(13.0.3)" Target="Korn." Bounds="693.149596510811,54.133733253479,92.5256391894251,390.414808419252" />
+    <Link Source="Microsoft.Build(17.8.3)" Target="Korn." Bounds="1467.30444373714,719.332364504886,225.252308964877,108.161756588863" />
+    <Link Source="Microsoft.Build(17.8.3)" Target="Korn.Tasks" Bounds="1414.68584931691,596.860319803372,288.656924845924,230.633801290377" />
+    <Link Source="Microsoft.Build.Utilities.Core(17.8.3)" Target="Korn." Bounds="1449.01243176496,719.940773584897,282.863196024851,163.513430516666" />
+    <Link Source="Microsoft.Build.Utilities.Core(17.8.3)" Target="Korn.Analyze" Bounds="1441.97769801937,827.572827853839,253.475434020499,55.8813762477239" />
+    <Link Source="Microsoft.Build.Utilities.Core(17.8.3)" Target="Korn.Tasks" Bounds="1410.0892815819,597.147413753184,329.310898828517,286.306790348378" />
+    <Link Source="Newtonsoft.Json(13.0.3)" Target="Korn." Bounds="1425.75474380476,720.958724230752,281.143776986138,218.455593396201" />
     <Link Source="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Target="8cc526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
     <Link Source="a7babfcf-2c33-46f3-8c00-e7f87bda32a01" Target="8ce526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
+    <Link Source="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Target="0dc540ef-5a75-49c3-960d-45ec4de1b9711" Category="Contains" />
+    <Link Source="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Target="62637b48-eaee-490b-a143-1d6b21172f7f1" Category="Contains" />
+    <Link Source="afb14cab-430a-4909-8cf9-2fb9e1bec2ad1" Target="80c526e4-bfad-4be2-bb42-b25296cdf7d91" Category="Contains" />
   </Links>
   <Categories>
     <Category Id="AssemblyCategory" Label="AssemblyCategory" Background="#FFE51400" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" IsTag="True" NavigationActionLabel="Assemblies" />
@@ -121,6 +128,7 @@
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
     <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
